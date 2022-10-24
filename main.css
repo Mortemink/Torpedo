@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Russo One"; 
+}
+
+body{
+  height: 2400px;
+  background-color: rgb(0, 0, 0);  
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+}
+
+header button{
+  border: none;
+  color: #fff;
+  background-color: initial;
+  font-size: 25px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 3px 1px #3cc88f;
+}
+
+header button:hover{
+  font-size: 29px;
+  color: #3cc88f;
+  text-shadow: 0px 1px 1px #fff;  
+  transition: 0.3s;
+}
+
+footer{
+  background-color: #fff;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 2430px;
+}
+
+.FirstPhoto{
+  position: absolute;
+  width: 100%;
+}
+
+.logo{
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+  left: 8%;
+}
+
+.container_w_buttons{
+  right: 8%;
+  position: relative;
+  width: 500px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text{
+ font-size: 35px;
+  color: #fff;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  z-index: 1;
+}
+
+.fitchers_back{
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+
+.fithers{
+  top: 98%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  left: 10%;
+  height: 565px;
+  z-index: 2;
+}
+
+.fithers div{
+  width: 335px;
+  height: 396px;
+  background-color: #fff;
+  border: 2px solid #3cc88f;
+}
+
+
+.HotelIcon {
+  position: relative;
+  left: calc(50% - 56px);
+  top: 15%;
+}
+
+.StadionIcon{
+  width: 144px;
+  position: relative;
+  left: calc(50% - 72px);
+  top: 15%; 
+}
+
+.parkIcon{
+  width: 124px;
+  position: relative;
+  left: calc(50% - 62px);
+  top: 15%; 
+}
+
+.fithers div p{
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+.Rent{
+  background-image: url(./img/rentBack.png);
+  width: 100%;
+  height: 930px;
+  z-index: 1;
+  position: absolute; 
+  top: 158%;
+}
+
+.Rent p{
+  font-size: 50px;
+  color: #fff;
+  top: 30%;
+  left: 8%;
+  position: absolute;
+  z-index: 3;
+}
+
+
+.RentFrom{
+  display: block;
+  border-radius: 15px;
+  background-color: #fff;
+  position: absolute;
+  width: 565px;
+  height: 800px;
+  right: 10%;
+  top: 6%;
+}
