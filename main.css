@@ -38,6 +38,7 @@ header button{
   position: relative;
   z-index: 2;
   text-shadow: 1px 3px 1px #3cc88f;
+  cursor: pointer;
 }
 
 header button a:visited{
@@ -220,6 +221,7 @@ input:focus{
 }
 
 .RentForm button{
+  cursor: pointer;
   background-color: #4e4e4e;
   border-radius: 10px;
   border: none;
