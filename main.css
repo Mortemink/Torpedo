@@ -45,6 +45,10 @@ header button a:visited{
 
 }
 
+header button a:link{
+  color: #fff;
+}
+
 header button a:hover{
   font-size: 29px;
   color: #3cc88f;
